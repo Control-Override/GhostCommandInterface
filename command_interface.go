@@ -1,4 +1,4 @@
-package command_interface
+package command
 
 import "fmt"
 
