@@ -1,5 +1,5 @@
 // command.go
-package command
+package command_interface
 
 // Command interface that all commands will implement.
 type Command interface {
