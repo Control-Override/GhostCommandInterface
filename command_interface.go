@@ -6,4 +6,5 @@ type Command interface {
 	Execute(args []string)
     Author() string
     Alias() string
+    Help() string
 }
