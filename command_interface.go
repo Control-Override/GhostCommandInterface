@@ -6,5 +6,5 @@ type Command interface {
 	Execute(args []string)
     Author() string
     Alias() string
-    Help(isShort bool) string
+    Help(isShort bool, args []string) string
 }
